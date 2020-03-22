@@ -1,3 +1,6 @@
 __pycache__
 .venv
-client.egg-info
+*.egg-info
+.idea
+*.sqlite
+*.lock
