@@ -10,11 +10,12 @@ def cli():
 @click.command()
 @click.option('-n', '--name', required=True, help='the name of user')
 @click.option('-e', '--email', required=True, help='the email address of user')
-def register(name, email):
+@click.option('-p', '--password', required=True, help='the password of sender')
+def register(name, email, password):
     r = requests.post(HOST + '/users', json={
         'email': email,
         'username': name,
-        'password': 12345678
+        'password': password
     })
     if r.status_code != 201:
         click.echo(click.style('😭 Something went wrong', fg='red'))
