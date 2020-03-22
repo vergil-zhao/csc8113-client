@@ -1,0 +1,3 @@
+[console_scripts]
+csc8113 = client.__main__:cli
+

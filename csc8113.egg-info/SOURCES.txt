@@ -1,0 +1,17 @@
+setup.py
+client/__init__.py
+client/__main__.py
+client/upload.py
+csc8113.egg-info/PKG-INFO
+csc8113.egg-info/SOURCES.txt
+csc8113.egg-info/dependency_links.txt
+csc8113.egg-info/entry_points.txt
+csc8113.egg-info/requires.txt
+csc8113.egg-info/top_level.txt
+document/__init__.py
+user/__init__.py
+user/models.py
+user/operations.py
+utils/__init__.py
+utils/signing.py
+utils/storage.py
