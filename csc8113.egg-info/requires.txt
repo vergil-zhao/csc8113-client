@@ -1,5 +1,0 @@
-click
-ecdsa
-requests
-sqlalchemy
-prompt-toolkit
